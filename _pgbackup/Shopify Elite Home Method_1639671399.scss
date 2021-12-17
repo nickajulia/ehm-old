@@ -1,0 +1,40 @@
+/* EHM Custom SCSS */
+
+/*colors */
+$color-pink-grey: #f1e0d9;
+
+/* Override Debeautify Theme CSS */
+.section-description .wrapper {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#productDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CB Custom CSS */
+.fullCb {
+  width: 100%;
+}
+.sectionCb{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.descriptionWrapCb{
+    background-color: $color-pink-grey;
+}
+
+.descriptionInnerCb
+{
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+}
+.descriptionTextCb{
+    text-align: left;
+}

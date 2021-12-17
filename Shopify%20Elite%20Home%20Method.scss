@@ -1,0 +1,83 @@
+/* EHM Custom SCSS */
+/* colors */
+$color-pink-grey: #f1e0d9;
+
+/* Override Debeautify Theme CSS */
+.section-description .wrapper {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#productDescription {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+ul {
+    text-align: left;
+}
+
+/* CB Custom CSS */
+.fullCb {
+    width: 100%;
+}
+
+.sectionCb {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pinkGrey {
+    background-color: $color-pink-grey;
+}
+
+.descriptionInnerCb,
+.sectionInnerCb {
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+    align-items: start;
+    align-content: start;
+}
+
+.descriptionTextCb {
+    text-align: left;
+}
+
+.featuresGridCb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-areas: 'imgLeft textRight';
+}
+
+.flexCenterCb {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.featuresSectionCb {
+    padding-top: 40px;
+
+    ul {
+        font-size: 18px;
+    }
+}

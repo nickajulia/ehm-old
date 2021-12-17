@@ -1,0 +1,83 @@
+/* EHM Custom SCSS */
+/* colors */
+/* Override Debeautify Theme CSS */
+.section-description .wrapper {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.productDescriptionWrapCb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  text-align: left;
+}
+
+/* CB Custom CSS */
+.fullCb {
+  width: 100%;
+}
+
+.sectionCb {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pinkGrey {
+  background-color: #f1e0d9;
+}
+
+.descriptionInnerCb,
+.sectionInnerCb {
+  width: 800px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.sectionInnerLargeCb {
+  width: 1000px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.descriptionTextCb {
+  text-align: left;
+}
+
+.featuresGridCb {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-areas: "imgLeft textRight";
+}
+
+.flexCenterCb {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuresSectionCb {
+  padding-top: 40px;
+}
+.featuresSectionCb ul {
+  font-size: 18px;
+}
+
+.specsSectionCb {
+  padding-top: 40px;
+}
+
+/*# sourceMappingURL=Shopify Elite Home Method.css.map */

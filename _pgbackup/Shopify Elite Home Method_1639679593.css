@@ -1,0 +1,73 @@
+/* EHM Custom SCSS */
+/* colors */
+/* Override Debeautify Theme CSS */
+.section-description .wrapper {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0; }
+
+#productDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+/* CB Custom CSS */
+.fullCb {
+  width: 100%; }
+
+.sectionCb {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.pinkGrey {
+  background-color: #f1e0d9; }
+
+.descriptionInnerCb {
+  width: 800px;
+  margin: auto;
+  font-size: 18px; }
+
+.descriptionTextCb {
+  text-align: left; }
+
+.featuresGridCb {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-areas: 'imgLeft textRight'; }
+
+.flexCenterCb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.featuresSectionCb {
+  padding-top: 40px; }
